@@ -9,8 +9,8 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class JavaClassToStringExcel {
     public static void main(String[] args) {
-        String javaClassFile = "C:\\Users\\ABC\\git\\APMIS-Project\\apmis-flow\\src\\main\\java\\com\\cinoteck\\application\\views\\MainLayout.java";
-        String excelFile = "C:\\Users\\ABC\\Projects\\copyStrings\\src\\main\\resources\\excel\\mainman.xlsx";
+        String javaClassFile = "java class local path";
+        String excelFile = "excelsheet local destination";
 
         List<String> strings = extractStringsFromJavaClass(javaClassFile);
 

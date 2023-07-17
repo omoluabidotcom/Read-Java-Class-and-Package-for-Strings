@@ -10,8 +10,8 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class JavaPackageToStringExcel {
     public static void main(String[] args) {
-        String packagePath = "C:\\Users\\ABC\\git\\APMIS-Project\\apmis-flow\\src\\main\\java\\com\\cinoteck\\application\\views\\user";
-        String excelFile = "C:\\Users\\ABC\\Projects\\copyStrings\\src\\main\\resources\\excel\\user.xlsx";
+        String packagePath = "package local path";
+        String excelFile = "excelsheet local destination";
 
         List<String> strings = extractStringsFromJavaPackage(packagePath);
 
